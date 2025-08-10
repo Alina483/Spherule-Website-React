@@ -1,0 +1,17 @@
+
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { font: bold 32px sans-serif; fill: white; dominant-baseline: middle; }
+  </style>
+
+  <!-- Circular emblem centered vertically -->
+  <g transform="translate(50,50)">
+    <circle cx="0" cy="0" r="28" stroke="white" stroke-width="4" fill="none"/>
+    <ellipse rx="23" ry="8" stroke="white" fill="none" stroke-width="2" transform="rotate(0)" />
+    <ellipse rx="23" ry="8" stroke="white" fill="none" stroke-width="2" transform="rotate(60)" />
+    <ellipse rx="23" ry="8" stroke="white" fill="none" stroke-width="2" transform="rotate(120)" />
+  </g>
+
+  <!-- Text centered vertically -->
+  <text x="100" y="55" class="text">Spherule</text>
+</svg>
