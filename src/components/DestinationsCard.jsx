@@ -1,9 +1,10 @@
 import { useRef } from "react";
 
 const cards = [
-  { city: "Oslo", country: "Norway", img: "/images/oslo.jpg" },
-  { city: "Bergen", country: "Norway", img: "/images/bergen.jpg" },
-  { city: "Tromsø", country: "Norway", img: "/images/tromso.jpg" },
+  { city: "Oslo", country: "Norway", img: "/public/images/card1.png" },
+  { city: "Bergen", country: "Norway", img: "/public/images/card2.png" },
+  { city: "Tromsø", country: "Norway", img: "/public/images/card3.png" },
+  { city: "Vien", country: "Norway", img: "/public/images/card4.png" },
   // add more if you like…
 ];
 

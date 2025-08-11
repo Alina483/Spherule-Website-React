@@ -4,21 +4,21 @@ const plans = [
     place: "Sognefjord, Norway",
     price: "$220/night",
     badge: "Top",
-    img: "/images/plan1.jpg",
+    img: "/public/images/card1.png",
   },
   {
     title: "Northern Lights Lodge",
     place: "Tromsø, Norway",
     price: "$250/night",
     badge: "Hot",
-    img: "/images/plan2.jpg",
+    img: "/public/images/card2.png",
   },
   {
     title: "Oslo Forest Hideaway",
     place: "Oslo, Norway",
     price: "$200/night",
     badge: "New",
-    img: "/images/plan3.jpg",
+    img: "/public/images/card3.png",
   },
 ];
 
