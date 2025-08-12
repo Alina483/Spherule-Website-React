@@ -150,7 +150,7 @@ body {
 }
 
 .navbar.scrolled {
-  background: rgb(148, 148, 148);
+  background: rgb(26, 4, 4);
   color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
@@ -205,6 +205,7 @@ body {
 
 .auth-buttons .login:hover {
   opacity: 0.7;
+  transition: opacity 0.3s ease;
 }
 
 .auth-buttons .register {
@@ -221,14 +222,15 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.navbar.scrolled .nav-links li,
-.navbar.scrolled .auth-buttons .login {
-  color: white;
+.navbar.scrolled .auth-buttons .register {
+  background: var(--white);
+  color: var(--black);
 }
 
-.navbar.scrolled .auth-buttons .register {
-  background: var(--black);
-  color: var(--white);
+.navbar.scrolled .auth-buttons .register:hover {
+  background: #f4f5ed;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* =========================================================
