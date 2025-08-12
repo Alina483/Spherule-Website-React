@@ -145,13 +145,13 @@ body {
   padding: 0 2rem;
   background: transparent;
   backdrop-filter: none;
-  color: var(--white);
+  color: white;
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar.scrolled {
-  background: var(--white);
-  color: var(--black);
+  background: rgb(148, 148, 148);
+  color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -223,7 +223,7 @@ body {
 
 .navbar.scrolled .nav-links li,
 .navbar.scrolled .auth-buttons .login {
-  color: var(--black);
+  color: white;
 }
 
 .navbar.scrolled .auth-buttons .register {
