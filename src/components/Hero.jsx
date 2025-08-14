@@ -15,7 +15,7 @@ export default function Hero() {
           Northern Lights. Your gateway to unforgettable experiences!
         </p>
 
-        <button className="cta">Explore now</button>
+        <button className="cta all-main-btn">Explore now</button>
 
         <div className="hero__stats">
           <div><strong>3K+</strong><span>Beautiful Destinations</span></div>
