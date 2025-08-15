@@ -1,11 +1,12 @@
+import logo from '/src/assets/spherule_logo.svg';
+
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__top">
         <div className="brand">
-          <img src="/images/logo.svg" alt="" />
+          <img src={logo} alt="Logo" />
           <div>
-            <strong>Spherule</strong>
             <p className="muted">We help travelers explore Norway, with effortless trip planning and expert guides.</p>
           </div>
         </div>

@@ -7,7 +7,6 @@ export default function CTA() {
           <p className="muted">Start your journey today with expert planning, seamless booking, and unforgettable experiences.</p>
         </div>
         <div className="cta-banner__actions">
-          <button className="btn">Learn more</button>
           <button className="btn btn--pill">Start Your Adventure</button>
         </div>
       </div>

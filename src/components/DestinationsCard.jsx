@@ -34,7 +34,7 @@ export default function Destinations() {
           aria-label="Previous"
           onClick={() => scrollByAmount(-1)}
         >
-          ‹
+          ❮
         </button>
 
         <div className="destinations__track" ref={trackRef}>
@@ -55,7 +55,7 @@ export default function Destinations() {
           aria-label="Next"
           onClick={() => scrollByAmount(1)}
         >
-          ›
+          ❯
         </button>
       </div>
     </section>

@@ -5,7 +5,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-  const limit = () => window.innerHeight * 0.8; // change this if you want the navbar to change sooner or later
+  const limit = () => window.innerHeight * 0.6; // change this if you want the navbar to change sooner or later
   let L = limit();
   const onScroll = () => setScrolled(window.scrollY > L);
   const onResize = () => { L = limit(); onScroll(); };
