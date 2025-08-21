@@ -1,3 +1,4 @@
+import logo from '../assets/spherule_logo.svg'
 import React, { useEffect, useState } from 'react';
 
 const Navbar = () => {
@@ -23,7 +24,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <div className="logo">
-          <img src="src/assets/spherule_logo.svg" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </div>
 
         <button
