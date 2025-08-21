@@ -5,7 +5,7 @@ const cards = [
   { city: "Bergen", country: "Norway", img: "/public/images/card2.png" },
   { city: "Tromsø", country: "Norway", img: "/public/images/card3.png" },
   { city: "Vien", country: "Norway", img: "/public/images/card4.png" },
-  // add more if you like…
+  // add more bellow if needed
 ];
 
 export default function Destinations() {

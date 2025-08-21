@@ -1,8 +1,6 @@
-// Hero.jsx
 export default function Hero() {
   return (
     <section className="hero">
-      {/* optional dark/gradient overlay handled in CSS */}
       <div className="hero__content">
         <h1>
           Discover Norway’s
