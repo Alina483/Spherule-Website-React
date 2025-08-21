@@ -32,7 +32,7 @@ export default function HowItWorks() {
 
       <div className="how__col">
         <div className="how__image">
-          <img src="/public/images/Card4.png" alt="Kayak on a Norwegian lake" />
+          <img src="/images/Card4.png" alt="Kayak on a Norwegian lake" />
         </div>
       </div>
     </section>
