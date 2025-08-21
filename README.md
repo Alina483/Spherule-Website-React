@@ -1,12 +1,8 @@
+# Spherule. Norway Travel Website Mock 
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1868" height="930" alt="image" src="https://github.com/user-attachments/assets/78e83e1e-d809-4c35-93dc-afdb47d9d0e0" />
+A responsive travel website that helps travelers explore Norway with effortless trip planning and expert guides. Built with React and Vite, with a focus on clean UI, accessibility, and performance.
+## Overview
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Spherule showcases destinations across Norway with scrollable carousels, a mobile‑first CTA banner, and a clean footer with subscription and quick links. It is optimized for modern browsers and mobile devices.
